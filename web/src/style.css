@@ -1,0 +1,78 @@
+﻿body {
+    background-color: #fdde7e;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    }
+
+        
+.block1 { 
+    display: flex;
+    align-items: center;
+        height: 441px;
+width: 360px;
+margin-right: 40px;
+margin-top: 70px;
+flex-direction: column;
+text-align: center;
+background-color: #ffffff;
+border-radius: 7px;
+}
+
+.block2 {
+    display: flex;
+    align-items: center;
+    height: 500px;
+width: 361px;
+margin-top: 40px;
+flex-direction: column;
+text-align: center;
+background-color: #ffffff;
+border-radius: 7px;
+}
+
+.block3 {
+    display: flex;
+    align-items: center;
+    height: 441px;
+width: 360px;
+margin-top: 70px;
+margin-left: 40px;
+flex-direction: column;
+text-align: center;
+background-color: #ffffff;
+border-radius: 7px;
+}
+
+p { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    color:#02995b;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+   .block1:hover {
+    transform: scale(1.05);
+}
+
+.block2:hover {
+    transform: scale(1.05);
+}
+
+.block3:hover {
+    transform: scale(1.05);
+}
+
+*{transition: all .1s ease-in;}
